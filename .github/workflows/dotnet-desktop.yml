@@ -49,7 +49,6 @@ jobs:
   build:
 
     strategy:
-     failfast: false
       matrix:
         configuration: [Release]
 
